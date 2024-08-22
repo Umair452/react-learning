@@ -35,3 +35,16 @@ const reactElement = {
     children: 'Click me to visit google'
 }
 customRender(reactElement, root)
+//this is the custom way we have created a react element 
+
+
+//but
+
+
+// this is how react wants an element to convert it into an object
+
+// const reactElement = React.createElement(
+//     'h1',
+//     {className: 'myHeading', id: 'headingId'},
+//     'I am the injected heading'
+//   )

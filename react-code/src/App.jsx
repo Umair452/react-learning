@@ -1,14 +1,13 @@
 import { useState } from 'react'
-
-import viteLogo from '/vite.svg'
+import Practice from './Practice'
 
 
 function App() {
-  const [count, setCount] = useState(0)
-
+ 
   return (
     <>
     <h1>My first Vite project</h1>
+    <Practice />
     </>
   )
 }

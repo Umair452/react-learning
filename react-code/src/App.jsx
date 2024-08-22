@@ -4,9 +4,11 @@ import Practice from './Practice'
 
 function App() {
  
+  let userName = 'Muhammad Umair'
+
   return (
     <>
-    <h1>My first Vite project</h1>
+    <h1>My user name is: {userName}</h1>
     <Practice />
     </>
   )

@@ -1,0 +1,14 @@
+What is create root?
+
+A: It creates a DOM to compare your DOM with its own to render only changes.
+
+Suppose some elements are network dependent, like one element is getting updated
+by network after 1 millisecond so before you render, it gets updated, what to do 
+in this situation?
+
+A: Use the most updated value...
+
+!important: use this link to study about fibre 
+
+https://github.com/acdlite/react-fiber-architecture
+
